@@ -1,0 +1,39 @@
+{
+  "name": "substrate-by-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "GIT_USER=shawntabrizi docusaurus deploy",
+    "serve": "docusaurus serve"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.65",
+    "@docusaurus/preset-classic": "2.0.0-alpha.65",
+    "@mdx-js/react": "^1.5.8",
+    "@polkadot/api": "^2.1.1",
+    "clsx": "^1.1.1",
+    "monaco-editor": "^0.21.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-monaco-editor": "^0.40.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "monaco-editor-webpack-plugin": "^2.0.0"
+  }
+}
